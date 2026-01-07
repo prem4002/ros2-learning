@@ -58,7 +58,7 @@ docker run -it -rm \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
   \
   -v /run/dbus/system_bus_socket:/run/dbus/system_bus_socket \
-  -e "QT_X11_NO_MITSHM=1" \
+  -e "QT_Xs11_NO_MITSHM=1" \
   \
   --gpus all \
   --device /dev/dri \
